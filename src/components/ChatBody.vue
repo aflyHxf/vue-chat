@@ -30,7 +30,7 @@ export default {
     if (!localStorage.getItem('name')) {
       this.$router.go('/login')
     }
-    this.visit()  
+    this.visit()
   },
   components:{
     OtherMsg,
@@ -60,6 +60,5 @@ export default {
   background-color: #f6f6f6;
   height: ~'calc(100% - 90px)';
   overflow-y: scroll;
-
 }
 </style>
